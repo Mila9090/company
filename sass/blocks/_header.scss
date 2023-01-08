@@ -1,0 +1,26 @@
+.header{
+    padding: 33px 58px 120px 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    &__list{
+        width: 685px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    li{
+        list-style-type: none;
+    }
+    &__link{
+        text-decoration: none;
+        color: #fff;
+        transition: text-shadow .2s;
+        &:hover{
+            text-shadow: 0 0 .7px #FFF, 0 0 .7px #FFF;
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}

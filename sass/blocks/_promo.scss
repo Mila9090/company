@@ -1,0 +1,32 @@
+.promo{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url('./../img/promo-bg.png');
+    background-repeat: no-repeat;
+    &__header{
+        margin: 0 auto;
+        margin-bottom: 90px;
+        text-align: center;
+    }
+    &__title{
+        margin-bottom: 41px;
+        font-weight: 500;
+        font-size: 68px;
+        color: #FFFFFF;
+    }
+    &__descr{
+        margin-bottom: 41px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    &__img{
+        margin: 0 auto;
+        width: 1246px;
+        height: 979px;
+        background-image: url('./../img/banner.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

@@ -1,0 +1,17 @@
+.start {
+    padding: 151px 0 143px;
+    background-image: url('./../img/start-bg.png');
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        &:first-child {
+            width: 417px;
+        }
+    }
+    &__title{
+        width: 100%;
+    }
+}

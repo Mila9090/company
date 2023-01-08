@@ -1,0 +1,33 @@
+.brand {
+    background-color: #F9F8FF;
+    padding: 184px 0;
+    &__center {
+        text-align: center;
+    }
+    &__title {
+        text-align: center;
+    }
+    &__items {
+        margin-bottom: 40px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(144px, 1fr));
+        align-items: center;
+        column-gap: 112px;
+        row-gap: 25px;
+        grid-auto-rows: 60px;
+    }
+    &__item {
+        transition: 0.2s ease;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    &__footer {
+        width: 381px;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #424A4D;
+    }
+}

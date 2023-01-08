@@ -1,0 +1,62 @@
+.feature{
+    background-image: url('./../img/features-bg.png');
+    background-repeat: no-repeat;
+    &__title {
+        width: 528px;
+    }
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+        justify-items: center;
+        column-gap: 30px;
+        row-gap: 25px;
+        margin-bottom: 185px;
+    }
+    &__item {
+        width: 370px;
+        padding: 50px 23px 74px 41px;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 50px rgba(59, 62, 67, 0.05);
+        border-radius: 15px;
+    }
+    &__icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    &__grow {
+        background: url('./../icons/grow.svg') center center no-repeat, url('./../icons/grow-bg.svg') center/cover no-repeat;
+    }
+    &__discount {
+        background: url('./../icons/discount.svg') center center no-repeat, url('./../icons/discount-bg.svg') center/cover no-repeat;
+    }
+    &__user {
+        background: url('./../icons/user.svg') center center no-repeat, url('./../icons/user-bg.svg') center/cover no-repeat;
+    }
+    &__search {
+        background: url('./../icons/search.svg') center center no-repeat, url('./../icons/search-bg.svg') center/cover no-repeat;
+    }
+    &__graph {
+        background: url('./../icons/graph.svg') center center no-repeat, url('./../icons/graph-bg.svg') center/cover no-repeat;
+    }
+    &__bag {
+        background: url('./../icons/bag.svg') center center no-repeat, url('./../icons/bag-bg.svg') center/cover no-repeat;
+    }
+
+    &__subtitle{
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 30px;
+        color: #3B3E43;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 16px;    
+        line-height: 24px;
+        color: #595E64;
+        span {
+            font-weight: 700;
+        }
+    }
+}

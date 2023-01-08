@@ -1,0 +1,256 @@
+@media (max-width: 1277px){
+    .header {
+        &__list {
+        width: 580px;
+        }
+    }
+}
+@media (max-width: 1246px) {
+    .promo__img{
+        width: 1200px;
+        height: 943px;
+    }
+}
+@media (max-width: 1181px) {
+    .promo__img{
+        width: 1000px;
+        height: 780px;
+    }
+    .header {
+        padding: 33px 10px 30px 10px;
+    }
+    .process {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .brand {
+        padding: 60px 0;
+    }
+    .container {
+        width: 98%;
+    }
+    
+}
+
+@media (max-width: 1080px) {
+    .header{
+        padding: 33px 100px 30px 10px;
+        &>.button{
+            display: none;
+        }
+    }
+    .feature{
+        &__left, &__title{
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+    
+}
+@media (max-width: 1013px) {
+    .footer__items {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .promo{
+        &__header {
+        margin-bottom: 15px;
+        }
+        &__img {
+            width: 96%;
+            height: 65vh;
+        }
+    }
+    .header {
+        padding: 33px 20px 30px 10px;
+    }
+    .start__item img{
+        width: 50vw;
+    }
+    .process{
+        &__img{
+            width: 80%;
+        }
+        &__item {
+            gap: 10px;
+        }
+    }
+}
+@media (max-width: 900px) {
+    .promo{
+        &__img{
+            width: 90%;
+            height: 60vh;
+        }
+    }
+}
+@media (max-width: 885px) {
+    .process{
+        &__img{
+            width: 45%;
+            height: 140px;
+        }
+    }
+}
+
+@media (max-width: 870px) {
+    .header{
+        justify-content: center;
+        gap: 10px;
+        &__list {
+            width: 90%;
+        }
+    }
+    .promo{
+        &__img{
+            width: 85%;
+            height: 500px;
+        }
+    }
+}
+
+@media (max-width: 786px) {
+    .feature__item{
+        width: 90%;
+    }
+    .process{
+        &__img {
+        width: 396px;
+        height: 152px;
+        }
+        &__item{
+            padding: 28px 20px 24px 20px;
+        }
+    }
+}
+
+@media (max-width: 749px) {
+    .promo{
+        &__img{
+            width: 79%;
+            height: 440px;
+        }
+    }
+}
+
+@media (max-width: 730px) {
+    .title{
+        font-size: 30px;
+        &-white{
+            width: auto;
+            font-size: 16px;
+        }
+    }
+    .header{
+        &-white{
+            font-size: 30px;
+        }
+    }
+    .promo{
+        margin-bottom: 20px;
+        &__title {
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 38px;
+        color: #fff;
+        }
+    }
+    .start{
+        padding: 50px 0;
+        &__items{
+            justify-content: center;
+            text-align: center;
+        }
+        &__item{
+            &:last-child{
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 709px) {
+    .promo{
+        padding-bottom: 20px;
+        &__img{
+            display: none;
+        }
+    }
+    .footer__list {
+        width: auto;
+        gap: 10px;
+    }
+    .brand__footer {
+        width: auto;
+    }
+}
+
+
+
+@media (max-width: 669px) {
+    .brand__items {
+        justify-items: center;
+        column-gap: 20px;
+        row-gap: 10px;
+    }
+    .feature__items {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 660px) {
+    .header{
+        justify-content: space-between;
+        &__logo {
+            width: 200px;
+        }
+        &__list{
+        display: none;
+        }
+    }
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 565px) {
+    .process__img{
+        display: none;
+    }
+    .feature__title {
+        width: auto;
+    }
+    .footer__list {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 447px) {
+    .process__img{
+        display: none;
+    }
+    .feature__title {
+        width: auto;
+    }
+}
+
+@media (max-width: 370px) {
+    .feature{
+        &__items{
+            display: block;
+            width: 90%;
+            margin: 0 auto;
+        }
+        &__item{
+            width: auto;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+
+
+
